@@ -3,7 +3,15 @@ const collect_ratings = () => {
         count: 0,
         sum: 0,
         average: 0
+    
     };
-    let rating = 0;
+   rating = 0;
 };
-document.querySelectorAll('rating')
+const elements = document.querySelectorAll('.rating');
+
+elements.forEach(function(element) {
+element.id.replace('star' , '')
+
+})
+
+// console.log(elements);
