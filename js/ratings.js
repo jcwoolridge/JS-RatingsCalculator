@@ -6,6 +6,7 @@ const collect_ratings = () => {
     };
    rating = 0;
 const elements = document.querySelectorAll('.rating');
+
 elements.forEach(function(element) {
 element.id.replace('star' , '')
 
